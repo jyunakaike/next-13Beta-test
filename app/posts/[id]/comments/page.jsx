@@ -2,7 +2,7 @@ const fetchSinglePost = async (id) => {
     // incremental static regeneration 
     await new Promise(resolve => setTimeout(resolve , 3000))
 
-    return fetch(`https://jsonplaceholder.typicode.com/posts/${id}/comments`, {
+    return fetch(`https://jsonplaceholder.typicode.com/posts/${id}/commentsaaaa`, {
         next: {
             revalidate: 60
         }
